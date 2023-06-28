@@ -1,0 +1,7 @@
+.gallery__img {
+    width: 282px;
+    height: 282px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 25px;
+}

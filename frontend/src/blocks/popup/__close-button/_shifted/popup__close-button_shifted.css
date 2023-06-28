@@ -1,0 +1,13 @@
+.popup__close-button_shifted {
+    top: -40px;
+    right: -40px;
+}
+
+@media (max-width:880px) {
+    .popup__close-button_shifted {
+        top: -36px;
+        right: 0px;
+        width: 20px;
+        height: 20px;
+    }
+}
