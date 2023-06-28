@@ -95,12 +95,13 @@ function App() {
     useEffect(() => {
         const jwt = localStorage.getItem("jwt");
         if (jwt) setToken(jwt);
-   }, [])
+    }, [])
 
     useEffect(() => {
         if (!token) return;
-        setIsLoading(true);
+        if (!isLoggedIn) navigate('/sign-in', { replace: true });
 
+        setIsLoading(true);
         apiAuth
             .checkToken(token)
             .then((res) => {
