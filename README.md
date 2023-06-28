@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 84.201.139.139
 
-Frontend https://...
+Frontend https://picventures.nomoreparties.sbs
 
-Backend https://...
+Backend https://api.picventures.nomoreparties.sbs

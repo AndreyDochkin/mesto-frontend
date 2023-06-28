@@ -7,8 +7,7 @@
     "lint": "npx eslint . --fix",
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "jest",
-    "deploy": "scp -r ./build/* andreydochkin@84.201.139.139:/home/andreydochkin/mesto-backend"
+    "test": "jest"
   },
   "author": "Andrei Dochkin",
   "license": "ISC",
