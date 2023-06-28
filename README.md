@@ -9,7 +9,7 @@
 
 ## Ссылки на проект 
 
-IP-адрес 084.201.139.139
+IP-адрес 84.201.139.139
 
 Frontend https://picventures.nomoreparties.sbs
 
