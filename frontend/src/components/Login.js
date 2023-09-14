@@ -18,7 +18,7 @@ function Login({ loginUser, isLoggedIn }) {
   return (
     <main className="content">
       <section className="auth">
-        <h2 className="auth__title">Вход</h2>
+        <h2 className="auth__title">Sign in</h2>
         <form onSubmit={handleSubmit} className="auth__form">
           <input
             id="email"
@@ -34,7 +34,7 @@ function Login({ loginUser, isLoggedIn }) {
             id="password"
             name="password"
             type="password"
-            placeholder="Пароль"
+            placeholder="Password"
             value={password}
             className="auth__input"
             onChange={(e) => setPassword(e.target.value)}
