@@ -14,7 +14,7 @@ function Register({ registrationUser }) {
     return (
         <main className="content">
             <section className="auth">
-                <h2 className="auth__title">Регистрация</h2>
+                <h2 className="auth__title">Register</h2>
                 <form onSubmit={handleSubmit} className="auth__form">
                     <input
                         id="email"
@@ -39,10 +39,10 @@ function Register({ registrationUser }) {
                     />
 
                     <button type="submit" className="auth__button">
-                        Зарегистрироваться
+                        Register
                     </button>
                     <Link to="/sign-in" className="auth__link">
-                        Уже зарегистрированы? Войти
+                        Already have an account? Login
                     </Link>
                 </form>
             </section>

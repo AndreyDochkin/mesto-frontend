@@ -272,8 +272,8 @@ function App() {
                     isOpen={isDeletePopupOpen}
                     onClose={closeAllPopups}
                     name='confirm'
-                    title='Вы уверены?'
-                    submitButtonName='Да'
+                    title='Are you sure?'
+                    submitButtonName='Yes'
                     onSubmit={handleConfirmDelete} />
 
                 <EditProfilePopup

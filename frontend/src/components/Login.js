@@ -41,7 +41,7 @@ function Login({ loginUser, isLoggedIn }) {
           />
 
           <button type="submit" className="auth__button">
-            Войти
+            Login
           </button>
         </form>
       </section>
