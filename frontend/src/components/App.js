@@ -21,7 +21,7 @@ import ApiAuth from "../utils/ApiAuth";
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 
 const BASE_URL = 'https://api.picventures.nomoreparties.sbs';
-//const BASE_URL = 'http://localhost:3000';
+// const BASE_URL = 'http://localhost:4000';
 
 const api = new Api({
     baseUrl: `${BASE_URL}`,
