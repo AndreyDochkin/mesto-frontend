@@ -260,8 +260,8 @@ function App() {
                     onClose={closeAllPopups}
                     isOpen={isInfoTooltipPopupOpen}
                     isSuccess={!registrationError && !loginError}
-                    messagePass='Вы успешно зарегистрированы!'
-                    messageFail='Что-то пошло не так!'
+                    messagePass='Registration completed successfully!'
+                    messageFail='Registration failed!'
                 />
 
                 <ImagePopup
