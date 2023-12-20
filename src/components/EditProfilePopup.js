@@ -33,12 +33,12 @@ function EditProfilePopup(props) {
         <PopupWithForm isOpen={props.isOpen} onClose={props.onClose} onSubmit={handleSubmit} name='profile' title='Edit profile' submitButtonName='Save'>
 
             <input className="popup__input popup__input_type_name" id="place-name-input" type="text" name="name"
-                placeholder="Имя" minLength="2" maxLength="30" value={name || ''} onChange={handleChangeName} required />
+                placeholder="Name" minLength="2" maxLength="30" value={name || ''} onChange={handleChangeName} required />
 
             <span className="popup__error place-name-input-error"></span>
 
             <input className="popup__input popup__input_type_about" id="place-about-input" type="text" name="about"
-                placeholder="Описание" value={about || ''} onChange={handleChangeAbout} required />
+                placeholder="Discription" value={about || ''} onChange={handleChangeAbout} required />
 
             <span className="popup__error url-input-error"></span>
         </PopupWithForm>

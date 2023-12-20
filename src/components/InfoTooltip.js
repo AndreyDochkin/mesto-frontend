@@ -7,7 +7,7 @@ function InfoTooltip({ name, onClose, isOpen, isSuccess, messagePass, messageFai
         <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>
             <div className={`popup__container`}>
                 <img src={isSuccess ? iconPass : iconFail}
-                    alt={isSuccess ? "Подтверждение" : "Ошибка"}
+                    alt={isSuccess ? "Success" : "Error"}
                     className={`popup__image_registr-confirm`} />
                 <h2 className={`popup__title popup__title_${name}`}>
                     {isSuccess ? messagePass : messageFail}

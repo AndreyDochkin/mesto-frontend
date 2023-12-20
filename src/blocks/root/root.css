@@ -1,5 +1,6 @@
 .root {
-    background-color: #000;
+    --primery: #085F64;
+    background-color: var(--primery);
     width: 100%;
     position: relative;
 }
